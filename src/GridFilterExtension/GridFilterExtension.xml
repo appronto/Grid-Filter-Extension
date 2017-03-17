@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<widget id="GridFilterExtension.widget.GridFilterExtension" needsEntityContext="false" xmlns="http://www.mendix.com/widget/1.0/">
+    <name>Grid Filter Extension</name>
+    <description>A widget to get the values of a datagrid and store them in the database.</description>
+
+    <icon>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</icon>
+
+    <properties>
+        <property key="datagridname" type="string" required="true">
+            <caption>Datagrid/Templategrid name</caption>
+            <category>Appearance</category>
+            <description>The unique name of the datagrid/templategrid that must be used to store the settings. (The widget will seach on mx-name-{gridname})</description>
+        </property>
+        <property key="saveButton" type="translatableString" required="true">
+            <caption>Save button</caption>
+            <category>Appearance</category>
+            <description>The name of the save button store a filter set</description>
+        </property>
+        <property key="selectionButton" type="translatableString" required="true">
+            <caption>Load button</caption>
+            <category>Appearance</category>
+            <description>The name of the load button to load a filter set</description>
+        </property>
+        <property key="questionText" type="translatableString" required="true">
+            <caption>Question text</caption>
+            <category>Appearance</category>
+            <description>The question the user will get when he must give a name to his filter to store the filter set in the database</description>
+        </property>
+        <property key="selectionText" type="translatableString" required="true">
+            <caption>Selection text</caption>
+            <category>Appearance</category>
+            <description>The header of the selection box.</description>
+        </property>
+        
+        <property key="filterEntity" type="entity" required="true">
+			<caption>Filter Entity</caption>
+			<category>Data source</category>
+			<description>The entity to get all available stored filter settings. Read/Write rights are required.</description>
+		</property>
+        <property key="filterConstraint" type="entityConstraint" entityProperty="filterEntity" required="false">
+            <caption>XPath Constraint</caption>
+            <category>Data source</category>
+            <description>The XPath constraint to retrieve the Filter entities</description> 
+        </property>
+        <property key="gridAttr" type="attribute" entityProperty="filterEntity" required="true">
+			<caption>Grid name attribute</caption>
+			<category>Data source</category>
+			<description>Attribute to store the name of the grid, to easy search for filter options.</description>
+			<attributeTypes>
+				<attributeType name="String"/>
+			</attributeTypes>
+		</property>
+        <property key="nameAttr" type="attribute" entityProperty="filterEntity" required="true">
+			<caption>Filter name attribute</caption>
+			<category>Data source</category>
+			<description>Attribute to store the name of the created filter for the end user.</description>
+			<attributeTypes>
+				<attributeType name="String"/>
+			</attributeTypes>
+		</property>
+        <property key="storeAttr" type="attribute" entityProperty="filterEntity" required="true">
+			<caption>Data attribute</caption>
+			<category>Data source</category>
+			<description>Attribute to store the given input parameters. Best is to have a unlimited String attribute.</description>
+			<attributeTypes>
+				<attributeType name="String"/>
+			</attributeTypes>
+		</property>
+        <property key="onchangemf" type="microflow" required="false" entityProperty="filterEntity">
+            <caption>On change</caption>
+            <category>Behavior</category>
+            <description>Microflow that will be triggered after the filter has been created to do some additional stuff.</description>
+            <returnType type="Void"/>
+        </property>
+    </properties>
+</widget>
+

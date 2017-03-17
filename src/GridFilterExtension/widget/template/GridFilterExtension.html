@@ -1,0 +1,23 @@
+<div data-dojo-attach-point="selectionmodel" class="modal-dialog mx-dialog mx-dropdown GridFilterExtension" style="display: none;">
+	<div class="modal-content mx-dialog-content">
+		<div focusindex="-1" class="modal-header mx-dialog-header">
+			<h4 class="caption mx-dialog-caption" data-dojo-attach-point="dialogheader"></h4>
+		</div>
+        <div data-dojo-attach-point="filterinputdiv" class="modal-body mx-dialog-body" style="display:none;">
+            <div class="input-group">
+                <input data-dojo-attach-point="inputBox" class="mendixFormView_textBox form-control" />
+                <span class="input-group-btn searchInputButton">
+                    <button class="btn btn-default" type="button" data-dojo-attach-point="inputboxbutton">
+                        <span class="glyphicon glyphicon-save"></span>
+                    </button>
+                </span>
+            </div>
+		</div>
+		<div data-dojo-attach-point="filterselectiondiv" class="modal-body mx-dialog-body" style="display:none;">
+			<ul data-dojo-attach-point="selectionmodellist" class="selectionmodellist mx-list mx-list-hover mx-listview-list"></ul>
+		</div>
+		<div class="modal-footer mx-dialog-footer">
+			<button data-dojo-attach-point="closeButton" class="btn primary">Close</button>
+		</div>
+	</div>
+</div>

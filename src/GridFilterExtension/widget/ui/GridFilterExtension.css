@@ -1,0 +1,8 @@
+.mx-dialog.GridFilterExtension {
+    opacity: 1; 
+    z-index: 1002;
+    top: 60px;
+}
+.GridFilterExtension .mx-dialog-header{
+    cursor: default;
+}
