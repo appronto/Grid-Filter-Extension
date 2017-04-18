@@ -213,12 +213,12 @@ define([
             if(this.filterConstraint){
                 var constraint = this.filterConstraint;
                 if(this._contextObj){	
-                    if(this.tableConstraint.indexOf('[%CurrentObject%]') >= 0 && this._contextObj) {
-                        constraint = this.filterConstraint.replace(/\[%CurrentObject%\]/gi, this._contextObj.getGuid());
+                    if(constraint.indexOf('[%CurrentObject%]') >= 0 && this._contextObj) {
+                        constraint = constraint.replace(/\[%CurrentObject%\]/gi, this._contextObj.getGuid());
                     }
                 }
-                if(this.tableConstraint.indexOf('[%CurrentUser%]') >= 0) {
-                    constraint = this.filterConstraint.replace(/\[%CurrentUser%\]/gi, mx.session.getUserId());
+                if(constraint.indexOf('[%CurrentUser%]') >= 0) {
+                    constraint = constraint.replace(/\[%CurrentUser%\]/gi, mx.session.getUserId());
                 }
                 xpath += constraint;
             }
